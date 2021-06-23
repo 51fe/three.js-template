@@ -1,0 +1,42 @@
+{
+  "name": "simple-threejs-webpack-template",
+  "version": "1.0.0",
+  "description": "Simple three.js webpack template",
+  "bugs": {
+    "url": "https://github.com/51fe/simple-threejs-webpack-template/issues"
+  },
+  "homepage": "https://github.com/51fe/simple-threejs-webpack-template#readme",
+  "keywords": [
+    "webgl",
+    "boilerplate",
+    "three.js",
+    "es6",
+    "webpack"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "three": "^0.92.0",
+    "three-obj-loader": "^1.1.3",
+    "webpack-cli": "^2.0.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.28.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
