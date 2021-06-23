@@ -3,6 +3,7 @@ import * as THREE from 'three'
 
 // 创建场景对象Scene
 const scene = new THREE.Scene();
+
 // 创建一个球体几何对象
 const geometry = new THREE.BoxGeometry(100, 100, 100);
 // 创建材质对象
@@ -21,7 +22,7 @@ point.position.set(400, 200, 300)
 //点光源添加到场景中
 scene.add(point);
 // 环境光
-var ambient = new THREE.AmbientLight(0x444444);
+const ambient = new THREE.AmbientLight(0x444444);
 //环境光添加到场景中
 scene.add(ambient);
 
@@ -35,7 +36,7 @@ const aspect = width / height;
 const s = 200;
 
 // 创建相机对象
-var camera = new THREE.OrthographicCamera(-s * aspect, s * aspect, s, -s, 1, 1000);
+const camera = new THREE.OrthographicCamera(-s * aspect, s * aspect, s, -s, 1, 1000);
 // 设置相机位置
 camera.position.set(200, 300, 200);
 // 设置相机方向(指向的场景对象)
