@@ -2,7 +2,7 @@
 
 This project will help you get started on your next three.js project and provide a foundation for extension. It sets up a simple scene, camera and renderer in a modern Javascript environment.
 
-[Demo](http://51fe.github.io/simple-threejs-webpack-template/dist)
+[Demo](http://51fe.github.io/three.js-template/dist)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
